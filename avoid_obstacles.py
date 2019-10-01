@@ -58,7 +58,7 @@ for i in range(1, 17):
     returnCode, detectionState, detectedPoint, detectedObjectHandle, detectedSurfaceNormalVector = vrep.simxReadProximitySensor(clientID, sensor_handle, vrep.simx_opmode_streaming)
     
 # Set initial default values for forward speed, right and left motor speeds of the robot
-v0 = 1
+v0 = 1.5
 v_l = 0
 v_r = 0
 
